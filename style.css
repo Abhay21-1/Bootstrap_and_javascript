@@ -1,0 +1,27 @@
+@media(min-width:768){
+    .news-input{
+        width: 50%;
+    }
+}
+.hero
+{
+    background-image:linear-gradient(rgba(7, 8, 8, 0.6),rgba(7, 8, 8, 0.9)) ,url(pexels-catiamatos-1072179.jpg);
+    min-height: 32rem;
+    max-width: 100%;
+    background-position:top;
+}
+.ir img
+{
+ transition: filter 2s;
+ 
+}
+.ir img:hover
+{
+    filter: brightness(50%);
+    transform: scale(0.9);
+}
+
+/* spinner */
+/* .spinner-container {
+    display: none; Hide spinner by default 
+}  */
